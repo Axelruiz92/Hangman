@@ -107,6 +107,8 @@ main {
     }
 
     #caja1 {
-        height: 480px;
+        height: 450px;
     }
+    #palabra_a_adivinar {
+        height: 100px;}
 }

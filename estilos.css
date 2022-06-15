@@ -112,3 +112,88 @@ main {
     #palabra_a_adivinar {
         height: 100px;}
 }
+
+
+@media (max-width: 400px) {
+
+    video {
+        width: fit-content;
+    }
+
+    body {
+        height: 500px;
+    }
+
+    header {
+        padding: 0;
+        height: 20px;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 12px;
+        color: black;
+        padding-left: 5px;
+        padding-top: 2px;
+    }
+
+    #imagen {
+        width: 165px;
+        height: 80px;
+
+    }
+    main {
+        display: grid;
+        gap: 0;
+        height: 225px;
+}
+
+    #caja1 {
+        padding-bottom: 0px;
+        width: 170px;
+        height:150px;
+        margin:0px;
+        ;
+        
+    }
+
+    #palabra_a_adivinar {
+        width: 148px;
+        height: 20px;
+        line-height: 5px;
+        padding-top: 10px;
+        margin-bottom: 1px;}
+
+    #palabra_a_adivinar span {
+           font-size: 4px;
+            color: black;
+            width:6px;
+            border-bottom: 1px solid black;}
+
+    #jugar {
+        font-size: 5px;
+        margin-bottom: 5px;
+    }
+    #letras {
+        padding: 1px;
+        width: 170px;
+        
+
+    }
+
+    #letras button {
+        font-size: 4px;
+        width: 12px;
+        height: 14px;
+    }
+
+    #resultado {
+        color: black;
+        font-size: 6px;
+    }
+
+
+}
+
+    
+

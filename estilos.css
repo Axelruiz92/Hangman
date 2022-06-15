@@ -117,7 +117,14 @@ main {
 @media (max-width: 400px) {
 
     video {
-        width: fit-content;
+        object-fit: cover;
+        width: 180px;
+        height: 250px;
+        transform:none;
+        position:fixed;
+        right: auto;
+        bottom: auto;
+
     }
 
     body {
@@ -196,4 +203,3 @@ main {
 }
 
     
-
